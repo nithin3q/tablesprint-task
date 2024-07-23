@@ -1,0 +1,17 @@
+.dashboard-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    text-align: center;
+  }
+  
+  .dashboard-content img {
+    margin-bottom: 0px;
+  }
+  
+  .dashboard-content h2 {
+    margin-top: 0;
+  }
+  

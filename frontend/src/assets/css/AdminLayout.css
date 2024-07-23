@@ -1,0 +1,43 @@
+/* src/App.css */
+.sidebar {
+    min-height: 92vh;
+    padding-top: 1rem;
+    /* max-height: 100% !important; */
+  }
+  @media screen and (max-width: 768px) {
+    .sidebar {
+      min-height: 100% !important;
+    }
+    
+  }
+  
+  .navbar-brand img {
+    margin-right: 10px;
+  }
+  
+  .sidebar {
+    background-color: #f4f4f4 !important; 
+  }
+  
+  .nav-link {
+    color: rgb(0, 0, 0) !important; /* Ensure links are white */
+  }
+  
+  .nav-link span {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link span svg {
+    margin-right: 10px;
+  }
+  
+  .active-link .nav-link {
+    background-color: #F4EDAF !important;
+    color: black !important;
+  }
+  
+  .nav-link:hover {
+    color: #3d333c !important; 
+  }
+  

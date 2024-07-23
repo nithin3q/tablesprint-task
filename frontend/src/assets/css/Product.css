@@ -1,0 +1,24 @@
+/* Product.css */
+.custom-table thead {
+    background-color: #662671;
+    color: white;
+  }
+  
+  .custom-table tbody {
+    background-color: #5a6d81;
+    
+    
+  }
+  
+  .custom-table tbody tr:hover {
+    background-color: #e9ecef;
+  }
+  .table{
+    background-color: #662671;
+  }
+  tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: none;
+    border-width: 0;
+}
+  

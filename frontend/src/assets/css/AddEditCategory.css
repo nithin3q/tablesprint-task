@@ -1,0 +1,30 @@
+.add-edit-category-form .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-edit-category-form .form-control,
+  .add-edit-category-form select {
+    margin-top: 5px;
+  }
+  
+  .add-edit-category-form .form-control::placeholder {
+    color: #aaa;
+  }
+  
+  .add-edit-category-form select {
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="5" viewBox="0 0 10 5"><path fill="%23662771" d="M0 0l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 10px 5px;
+    padding-right: 25px;
+  }
+  
+  .add-edit-category-form .image-upload-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+  }
+  

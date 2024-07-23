@@ -1,0 +1,15 @@
+.align-left{
+    margin-left: 25% !important;
+}
+@media only screen and (max-width: 600px) {
+    .align-left{
+        margin-left: 10% !important;
+        margin: 20px auto !important;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .align-left{
+        margin-left: 0%;
+        margin: 20px auto !important;
+    }
+}
