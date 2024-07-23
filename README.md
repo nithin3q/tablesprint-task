@@ -40,6 +40,38 @@ The backend is built using Node.js with Express.js and provides RESTful APIs for
   - Multer (for file uploads)
   - JSON Web Token (JWT) for authentication
 
+## Installation and Setup
+
+### Frontend
+
+1. **Navigate to the frontend directory**:
+
+   ```bash
+   cd frontend
+   npm install
+  ```
+2. ** in the frontend directory and add the baseurl in utils/axiosInstance.jsx.**
+   ```
+   baseURL: 'http://localhost:5000'
+   ```
+3. **Start the frontend **:
+  ```bash
+   npm run dev
+  ```
+### Frontend
+
+1. **Navigate to the Backend directory**:
+
+   ```bash
+   cd backend
+   npm install
+  ```
+
+2. **Start the frontend **:
+  ```bash
+   npm run start
+  ```
+
 ## .env Configuration
 
 Below are the environment variables used in this project. Ensure you have a `.env` file in your root directory with the following variables:
