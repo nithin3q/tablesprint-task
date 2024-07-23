@@ -70,7 +70,7 @@ const ViewProduct = () => {
               <div className="form-group">
                 <label><strong>Image:</strong></label>
                 <br />
-                <img src={`http://localhost:5000/uploads/${product.image}`} alt={product.name} style={{ maxWidth: '300px' }} />
+                <img src={`https://tablesprint-task.onrender.com/uploads/${product.image}`} alt={product.name} style={{ maxWidth: '300px' }} />
               </div>
             </div>
           </div>

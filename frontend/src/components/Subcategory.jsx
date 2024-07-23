@@ -94,7 +94,7 @@ const Subcategory = () => {
               <td>{subcategory.id}</td>
               <td>{subcategory.name}</td>
               <td>{subcategory.Category.name}</td>
-              <td><img src={`http://localhost:5000/uploads/${subcategory.image}`} alt={subcategory.name} width="50" /></td>
+              <td><img src={`https://tablesprint-task.onrender.com/uploads/${subcategory.image}`} alt={subcategory.name} width="50" /></td>
               <td style={{ textTransform: 'capitalize' ,color: subcategory.status === 'active' ? 'green' : 'red'}}>{subcategory.status}</td>
               <td>{subcategory.sequence}</td>
               <td>

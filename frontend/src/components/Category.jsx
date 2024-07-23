@@ -97,7 +97,7 @@ const Category = () => {
               <td>{category.name}</td>
               <td>
                 <img
-                  src={`http://localhost:5000/uploads/${category.image}`}
+                  src={`https://tablesprint-task.onrender.com/uploads/${category.image}`}
                   alt={category.name}
                   width="50"
                 />

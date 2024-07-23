@@ -28,7 +28,7 @@ const EditCategory = () => {
           image: res.data.image,
           status: res.data.status,
         });
-        setImagePreview(`http://localhost:5000/uploads/${res.data.image}`);
+        setImagePreview(`https://tablesprint-task.onrender.com/uploads/${res.data.image}`);
         setLoading(false);
       } catch (error) {
         console.error('Error fetching category:', error.response ? error.response.data : error.message);

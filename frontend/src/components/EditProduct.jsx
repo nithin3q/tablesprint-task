@@ -31,7 +31,7 @@ const EditProduct = () => {
           image: res.data.image,
           status: res.data.status,
         });
-        setImagePreview(`http://localhost:5000/uploads/${res.data.image}`);
+        setImagePreview(`https://tablesprint-task.onrender.com/uploads/${res.data.image}`);
 
       } catch (error) {
         console.error(error);
