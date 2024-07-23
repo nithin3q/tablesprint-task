@@ -51,7 +51,7 @@ exports.forgotPassword = async (req, res) => {
     if (!user) return res.status(400).send('User does not exist');
 
     const token = jwt.sign({ id: user.id }, process.env.JWT_SECRET, { expiresIn: '15m' });
-    const resetLink = `http://localhost:3000/reset-password/${token}`;
+    const resetLink = `https://tablesprint.vercel.app/reset-password/${token}`;
 
     await sendEmail(user.username, 'Password Reset', `Please reset your password using the following link: ${resetLink}`);
 
