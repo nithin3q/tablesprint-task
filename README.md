@@ -50,7 +50,7 @@ The backend is built using Node.js with Express.js and provides RESTful APIs for
    cd frontend
    npm install
   ```
-2. ** in the frontend directory and add the baseurl in utils/axiosInstance.jsx.**
+2.** in the frontend directory and add the baseurl in utils/axiosInstance.jsx.**
    ```
    baseURL: 'http://localhost:5000'
    ```
