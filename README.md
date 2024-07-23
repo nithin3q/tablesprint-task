@@ -84,7 +84,7 @@ npm install
 Below are the environment variables used in this project. Ensure you have a `.env` file in your root directory with the following variables:
 
 ```env
-DB_NAME==
+DB_NAME=
 DB_USER=
 DB_PASSWORD=
 DB_HOST=
@@ -100,3 +100,8 @@ EMAIL_PASSWORD=
   - The frontend uses `react-router-dom` for routing.
   - The backend APIs are protected with JWT authentication.
   - The reset password route is configured for token-based access.
+ 
+    
+## Resources used
+  -   Google
+  -   ChatGpt
