@@ -2,15 +2,32 @@
 
 ## Project Description
 
-This project is a comprehensive application with both frontend and backend components. It includes user authentication, category management, product management, and other functionalities essential for an admin panel.
+### Frontend
 
-## Frontend
+Provide a brief description of the frontend functionality here.
 
-The frontend of this project is built using React and handles user interfaces, routing, and interactions with the backend API.
+### Backend
 
-### Frontend Installation
+Provide a brief description of the backend functionality here.
 
-1. Navigate to the frontend directory:
+## Tech Stack
 
-   ```bash
-   cd frontend
+- **Frontend**: React, Bootstrap, React Router DOM
+- **Backend**: Node.js, Express, MySQL, Sequelize
+- **Authentication**: JSON Web Tokens (JWT)
+- **Email Service**: Your preferred email service
+
+## .env Configuration
+
+Below are the environment variables used in this project. Ensure you have a `.env` file in your root directory with the following variables:
+
+```env
+DB_NAME==
+DB_USER=
+DB_PASSWORD=
+DB_HOST=
+DB_PORT=
+JWT_SECRET=
+EMAIL=
+EMAIL_PASSWORD=
+```
