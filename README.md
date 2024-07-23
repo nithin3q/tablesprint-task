@@ -29,6 +29,7 @@ The backend is built using Node.js with Express.js and provides RESTful APIs for
 ## Tech Stack
 
 - **Frontend**:
+
   - React
   - React Router
   - Bootstrap
@@ -44,33 +45,39 @@ The backend is built using Node.js with Express.js and provides RESTful APIs for
 
 ### Frontend
 
-1. **Navigate to the frontend directory**:
+**1. Navigate to the frontend directory**:
 
-   ```bash
-   cd frontend
-   npm install
-  ```
-2.** in the frontend directory and add the baseurl in utils/axiosInstance.jsx.**
-   ```bash
-   baseURL: 'http://localhost:5000'
-   ```
-3. **Start the frontend **:
-  ```bash
-   npm run dev
-  ```
+```bash
+cd frontend
+npm install
+```
+
+**2. in the frontend directory and add the baseurl in utils/axiosInstance.jsx.**
+
+```
+ BaseURL: 'http://localhost:5000'
+```
+
+**3. Start the frontend**:
+
+```
+ npm run dev
+```
+
 ### Backend
 
-1. **Navigate to the Backend directory**:
+**1. Navigate to the Backend directory**:
 
-   ```bash
-   cd backend
-   npm install
-  ```
+```
+cd backend
+npm install
+```
 
-2. **Sart the backend**:
-  ```bash
-   npm run start
-  ```
+**2. Start the backend**
+
+```
+ npm run start
+```
 
 ## .env Configuration
 
@@ -89,11 +96,7 @@ EMAIL_PASSWORD=
 
 ## Notes
 
-- **Routes**: 
+- **Routes**:
   - The frontend uses `react-router-dom` for routing.
   - The backend APIs are protected with JWT authentication.
   - The reset password route is configured for token-based access.
-
-
-
-
